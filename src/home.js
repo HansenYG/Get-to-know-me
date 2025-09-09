@@ -223,7 +223,7 @@ const FadeInOnScroll = ({ children, delay = 0, duration = 0.6, triggerOnce = tru
 
 
         <h2 align="center" className="button_link_text">More about CS career on my Linkedin</h2>
-        <p align="center"><button type="button" className="button_link"><a href="https://www.linkedin.com/in/hansen-yosia-geraldi-aa963b363?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style={{textDecoration: 'none', color: '#5d4037', fontSize: '25px'}}>Check out my Linkedin</a></button></p>
+        <p align="center"><button type="button" className="button_link"><a href="https://www.linkedin.com/in/hansen-yosia-geraldi-aa963b363?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style={{textDecoration: 'none', color: '#5d4037', fontSize: '25px'}}  target="_blank">Check out my Linkedin</a></button></p>
     </div>
     </FadeInOnScroll>
     </section>
@@ -262,7 +262,7 @@ const FadeInOnScroll = ({ children, delay = 0, duration = 0.6, triggerOnce = tru
         </table>
 
         <h2 align="center" className="button_link_text">Check out more of my Photography</h2>
-        <p align="center"><button type="button" className="button_link"><a href="https://www.instagram.com/hansenyg07?igsh=MWoxbWJjbmk4NDYyOQ==" style={{textDecoration: 'none', color: '#5d4037', fontSize: '25px'}}>Check out my Instagram</a></button></p>
+        <p align="center"><button type="button" className="button_link"><a href="https://www.instagram.com/hansenyg07?igsh=MWoxbWJjbmk4NDYyOQ==" style={{textDecoration: 'none', color: '#5d4037', fontSize: '25px'}}  target="_blank">Check out my Instagram</a></button></p>
         </div>
     </FadeInOnScroll>
     </section>
