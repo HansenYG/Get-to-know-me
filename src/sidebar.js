@@ -96,7 +96,7 @@ function Sidebar(){
       <tr height="100px">
       </tr>
       <tr>
-          <td  align="center" height="30px"><a href="mailto:hansenygeraldi@gmail.com">
+          <td  align="center" height="30px"><a href="mailto:hansenygeraldi@gmail.com"  target="_blank">
             <div className="email_ImageContainer">
                 <img src={emailImage} alt="email-image" width="20px" height="auto"/>
                 <div className="email_ImageText">
@@ -106,7 +106,7 @@ function Sidebar(){
           </a></td>
       </tr>
       <tr>
-          <td  align="center" height="30px"><a href="https://www.linkedin.com/in/hansen-yosia-geraldi-aa963b363?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">
+          <td  align="center" height="30px"><a href="https://www.linkedin.com/in/hansen-yosia-geraldi-aa963b363?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "  target="_blank">
           <div className="linkedin_ImageContainer">
                 <img src={linkedinImage} alt="linkedin-image" width="20px" height="auto"/>
                 <div className="linkedin_ImageText">
@@ -116,7 +116,7 @@ function Sidebar(){
           </a></td>
       </tr>    
       <tr>
-          <td  align="center" height="30px"><a href="https://github.com/Fvast">
+          <td  align="center" height="30px"><a href="https://github.com/Fvast" target="_blank">
             <div className="github_ImageContainer">
                 <img src={githubImage} alt="github-image" width="20px" height="auto"/>
                 <div className="github_ImageText">
@@ -126,7 +126,7 @@ function Sidebar(){
           </a></td>
       </tr> 
       <tr>
-          <td  align="center" height="30px"><a href="https://www.instagram.com/hansenyg07?igsh=MWoxbWJjbmk4NDYyOQ==">
+          <td  align="center" height="30px"><a href="https://www.instagram.com/hansenyg07?igsh=MWoxbWJjbmk4NDYyOQ==" target="_blank">
           <div className="instagram_ImageContainer">
                 <img src={instaImage} alt="insta-image" width="20px" height="auto"/>
                 <div className="instagram_ImageText">
