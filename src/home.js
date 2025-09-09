@@ -144,7 +144,7 @@ const FadeInOnScroll = ({ children, delay = 0, duration = 0.6, triggerOnce = tru
               Im <img src={logoBrown} alt="logo" width="auto" height="75px" style={{ transform: 'translate(-4px, 22px)', paddingLeft: '24px' }} class="initialLogo"/> <span className="ansen">ansen</span>
             </h1>
           </div>
-          <p className="smallText">Incoming <a href="https://www.cityu.edu.hk" style={{ textDecoration: 'none', color: '#5d4037' }} className="CityULink">CityU Hong Kong</a> Computer Science student</p>
+          <p className="smallText">Incoming <a href="https://www.cityu.edu.hk" style={{ textDecoration: 'none', color: '#5d4037' }} className="CityULink" target="_blank">CityU Hong Kong</a> Computer Science student</p>
         </div>
         <div className="myImage">
           <img src={pp} alt="Profile" width="auto" height="500px" style={{ borderRadius: '50%', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.5)' }} />
