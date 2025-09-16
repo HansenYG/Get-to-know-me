@@ -14,7 +14,8 @@ import gear_3 from './gear_3.png'
 import gear_4 from './gear_4.png'
 import arrow from './arrow.png'
 import PDFViewer from './pdf_viewer.js'
-import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser'
+import my_cv from './my_cv.pdf';
 
 {/*Main Page*/}
 
