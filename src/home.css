@@ -392,6 +392,7 @@ textarea{
     border-radius: 15px;
     margin-left: 100px;
     margin-top: -15px;
+    z-index: -1;
 }
 
 .startHTML_startPython_transition {
@@ -410,8 +411,6 @@ textarea{
     border-radius: 15px;
     margin-left: 100px;
     margin-top: -15px;
-    z-index: 1;
-    position: relative;
 }
 
 .startPython_text{
