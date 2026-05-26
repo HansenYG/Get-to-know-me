@@ -24,6 +24,7 @@ function Home() {
   {/*Importing pdf's*/}
   const project1 = 'https://drive.google.com/file/d/16-5IL0Bb_yWRVi-23l_v5hLe3pllFQ_C/preview';
   const project2 = 'https://drive.google.com/file/d/1coB1Ym08o2ZbllU9jFXW33CeLXeKUiTn/preview';
+  const project3 = '#';
 
   {/*Gear button functionality*/}
   const [currentGearIndex, setCurrentGearIndex] = useState(0);
@@ -164,26 +165,7 @@ const FadeInOnScroll = ({ children, delay = 0, duration = 0.6, triggerOnce = tru
         <h2 className="tertiary_heading_text">Get to know me</h2>
         <p className="CS_content_text" align="justify">I believe that advancements in technology are inevitable especially in the field of artificial intelligence. As a result, I hold deeply a responsibility especially as a computer science student, to be able to understand how to use and implement technology and software accordingly and responsibly. </p>
         
-        <h2 className="tertiary_heading_text">My Journey</h2>
-        <div className="journey_diagram">
-        <p className="startHTML_text">2022 Started learning HTML</p>
-        <div className="startHTML"></div>
-        <div className="startHTML_startPython_transition"></div>
-        <div className="startPython"></div>
-        <p className="startPython_text">2022 Also started learning Python for coding algorithms</p>
-        <div className="startPython_startCSSandJS_transition"></div>
-        <div className="startCSSandJS"></div>
-        <div className="startCSSandJS_firstWebProject_transition"></div>
-        <div className="firstWebProjectHTML"></div>
-        <div className="firstWebProjectCSS"></div>
-        <div className="firstWebProjectJS"></div>
-        <div className="firstWebProject_pythonProject1_transition"></div>
-        <div className="PythonProject1"></div>
-        <div className="PythonProject1_pythonProject2_transition"></div>
-        <div className="PythonProject2"></div>
-        <div className="PythonProject2_startReact_transition"></div>
-        <div className="startReact"></div>
-        </div>
+        
 
         <h2 className="tertiary_heading_text">My Past Projects</h2>
 
@@ -192,35 +174,15 @@ const FadeInOnScroll = ({ children, delay = 0, duration = 0.6, triggerOnce = tru
             <td><div className="project_1"><PDFViewer PDFUrl={project1}/></div></td>
             <td width='50px'></td>
             <td><div className="project_1"><PDFViewer PDFUrl={project2}/></div></td>
+            <td width='50px'></td>
+            <td>
+              <div className="project_1">
+                <h3>Coinfidance</h3>
+                <p>Coinfidance project listing. <a href={project3} target="_blank" rel="noreferrer">View</a></p>
+              </div>
+            </td>
           </tr>
         </table>
-
-        <h2 className="tertiary_heading_text">Language Experience</h2>
-        <div className="HTML">
-          <h2 className="HTMLText">HTML</h2> <h2 className="HTMLTextYear">3 years</h2>
-        </div>
-        <div className="HTMLLine"></div>
-
-        <div className="Python">
-          <h2 className="PythonText">Python</h2> <h2 className="PythonTextYear">3 years</h2>
-        </div>
-        <div className="PythonLine"></div>
-
-        <div className="CSS">
-          <h2 className="CSSText">CSS</h2> <h2 className="CSSTextYear">2 years</h2>
-        </div>
-        <div className="CSSLine"></div>
-
-
-        <div className="Javascript">
-          <h2 className="JsText">Javascript</h2> <h2 className="JsTextYear">2 years</h2>
-        </div>
-        <div className="JsLine"></div>
-
-        <div className="React">
-          <h2 className="ReactText">React</h2> <h2 className="ReactTextYear">Just Started</h2>
-        </div>
-        <div className="ReactLine"></div>
 
 
         <h2 align="center" className="button_link_text">More about CS career on my Linkedin</h2>
