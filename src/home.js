@@ -175,8 +175,9 @@ const FadeInOnScroll = ({ children, delay = 0, duration = 0.6, triggerOnce = tru
             <td><div className="project_1"><PDFViewer PDFUrl={project1}/></div></td>
             <td width='50px'></td>
             <td><div className="project_1"><PDFViewer PDFUrl={project2}/></div></td>
-            <td width='50px'></td>
-            <td>
+          </tr>
+          <tr>
+            <td colSpan="3" align="center">
               <div className="project_1">
                 <a href={coinfidanceUrl} target="_blank" rel="noreferrer">
                   <img src={project_3} alt="Coinfidance" className="project_image" />
