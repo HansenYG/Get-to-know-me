@@ -5,6 +5,7 @@ import logoBrown from './logoBrown.png';
 import horizontal_1 from './horizontal_1.jpg'
 import horizontal_2 from './horizontal_2.jpg'
 import horizontal_3 from './horizontal_3.jpg'
+import project_3 from './project_3.png'
 import vertical_1 from './vertical_1.jpg'
 import vertical_2 from './vertical_2.jpg'
 import vertical_3 from './vertical_3.jpg'
@@ -24,7 +25,7 @@ function Home() {
   {/*Importing pdf's*/}
   const project1 = 'https://drive.google.com/file/d/16-5IL0Bb_yWRVi-23l_v5hLe3pllFQ_C/preview';
   const project2 = 'https://drive.google.com/file/d/1coB1Ym08o2ZbllU9jFXW33CeLXeKUiTn/preview';
-  const project3 = '#';
+  const coinfidanceUrl = 'https://coin-fidance.vercel.app';
 
   {/*Gear button functionality*/}
   const [currentGearIndex, setCurrentGearIndex] = useState(0);
@@ -177,8 +178,9 @@ const FadeInOnScroll = ({ children, delay = 0, duration = 0.6, triggerOnce = tru
             <td width='50px'></td>
             <td>
               <div className="project_1">
-                <h3>Coinfidance</h3>
-                <p>Coinfidance project listing. <a href={project3} target="_blank" rel="noreferrer">View</a></p>
+                <a href={coinfidanceUrl} target="_blank" rel="noreferrer">
+                  <img src={project_3} alt="Coinfidance" className="project_image" />
+                </a>
               </div>
             </td>
           </tr>
